@@ -33,7 +33,7 @@ const fadeVariant = {
   exit: { opacity: 0, y: -12 },
 };
 
-const fadeTransition = { duration: 0.35, ease: "easeInOut" };
+const fadeTransition = { duration: 0.35 };
 
 function formatPrice(value: number) {
   return value.toFixed(2);
